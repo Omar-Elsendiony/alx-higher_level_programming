@@ -35,7 +35,7 @@ int check_cycle(listint_t *list)
     }
     else
     {
-        return 1;
+        return 0;
     }
     current = current->next;
     HEAD = storage;
