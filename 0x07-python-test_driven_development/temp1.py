@@ -50,5 +50,9 @@ def factorial(n):
 
 
 if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
+    # import doctest
+    # doctest.testmod()
+    def f(my_list): my_list = [1, 2, 3]
+    my_list = [2, 3]
+    f(my_list)
+    print(my_list)
